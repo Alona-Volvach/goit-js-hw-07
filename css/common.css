@@ -11,6 +11,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  transition: background-color 0.5s ease;
 }
 #categories {
   list-style: none;
@@ -108,7 +109,23 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
+cursor: pointer;
 }
-.login-form button:hover{
+.login-form button:hover, .login-form button:focus{
   background-color: #6c8cff;
+}
+.change-color{
+border-radius: 8px;
+width: 148px;
+height: 40px;
+background-color: #4e75ff;
+border: none;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+cursor: pointer;
+}
+.change-color:hover, .change-color:focus{
+background-color: #6c8cff;
 }
